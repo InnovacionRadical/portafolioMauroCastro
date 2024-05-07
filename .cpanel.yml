@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/maurocastro/public_html/
+    - export DEPLOYPATH=/maurocastro/public_html/
     - /index.html $DEPLOYPATH
     - /css -R css/ $DEPLOYPATH
     - /img -R img/ $DEPLOYPATH
